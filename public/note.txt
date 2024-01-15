@@ -1,0 +1,2 @@
+1. data diri ahliwaris minta ditambah karna biasanya ahli waris tidak cuma 1 orang
+2. hapus button "tombol buat surat pengantar"

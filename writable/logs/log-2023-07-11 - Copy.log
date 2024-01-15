@@ -1,0 +1,368 @@
+INFO - 2023-07-11 00:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 00:19:24 --> Undefined array key "nama"
+in APPPATH\Views\dashboard\s_pengantar\v_s_pengantar.php on line 50.
+ 1 APPPATH\Views\dashboard\s_pengantar\v_s_pengantar.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\Users\\danih\\OneDrive\\Desktop\\web_management_desa\\app\\Views\\dashboard\\s_pengantar\\v_s_pengantar.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\danih\\OneDrive\\Desktop\\web_management_desa\\app\\Views\\dashboard\\s_pengantar\\v_s_pengantar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/s_pengantar/v_s_pengantar', [], true)
+ 5 APPPATH\Controllers\SPengantarController.php(24): view('dashboard/s_pengantar/v_s_pengantar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SPengantarController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SPengantarController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\danih\\OneDrive\\Desktop\\web_management_desa\\public\\index.php')
+INFO - 2023-07-11 00:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 00:20:21 --> Undefined array key "nama"
+in APPPATH\Views\dashboard\s_pengantar\v_s_pengantar.php on line 50.
+ 1 APPPATH\Views\dashboard\s_pengantar\v_s_pengantar.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\Users\\danih\\OneDrive\\Desktop\\web_management_desa\\app\\Views\\dashboard\\s_pengantar\\v_s_pengantar.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\danih\\OneDrive\\Desktop\\web_management_desa\\app\\Views\\dashboard\\s_pengantar\\v_s_pengantar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/s_pengantar/v_s_pengantar', [], true)
+ 5 APPPATH\Controllers\SPengantarController.php(24): view('dashboard/s_pengantar/v_s_pengantar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SPengantarController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SPengantarController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\danih\\OneDrive\\Desktop\\web_management_desa\\public\\index.php')
+INFO - 2023-07-11 00:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 00:21:42 --> Cannot use object of type mysqli as array
+in APPPATH\Views\dashboard\s_pengantar\v_s_pengantar.php on line 50.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/s_pengantar/v_s_pengantar', [], true)
+ 4 APPPATH\Controllers\SPengantarController.php(24): view('dashboard/s_pengantar/v_s_pengantar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SPengantarController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SPengantarController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\danih\\OneDrive\\Desktop\\web_management_desa\\public\\index.php')
+INFO - 2023-07-11 00:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 00:22:14 --> Undefined property: mysqli::$nama
+in APPPATH\Views\dashboard\s_pengantar\v_s_pengantar.php on line 50.
+ 1 APPPATH\Views\dashboard\s_pengantar\v_s_pengantar.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$nama', 'C:\\Users\\danih\\OneDrive\\Desktop\\web_management_desa\\app\\Views\\dashboard\\s_pengantar\\v_s_pengantar.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\danih\\OneDrive\\Desktop\\web_management_desa\\app\\Views\\dashboard\\s_pengantar\\v_s_pengantar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/s_pengantar/v_s_pengantar', [], true)
+ 5 APPPATH\Controllers\SPengantarController.php(24): view('dashboard/s_pengantar/v_s_pengantar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SPengantarController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SPengantarController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\danih\\OneDrive\\Desktop\\web_management_desa\\public\\index.php')
+INFO - 2023-07-11 00:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 00:22:20 --> Cannot use object of type mysqli as array
+in APPPATH\Views\dashboard\s_pengantar\v_s_pengantar.php on line 50.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/s_pengantar/v_s_pengantar', [], true)
+ 4 APPPATH\Controllers\SPengantarController.php(24): view('dashboard/s_pengantar/v_s_pengantar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SPengantarController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SPengantarController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\danih\\OneDrive\\Desktop\\web_management_desa\\public\\index.php')
+INFO - 2023-07-11 00:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:33:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 00:47:22 --> Undefined variable $surat_keterangan
+in APPPATH\Views\dashboard\s_kelahiran\v_s_kelahiran.php on line 46.
+ 1 APPPATH\Views\dashboard\s_kelahiran\v_s_kelahiran.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $surat_keterangan', 'C:\\Users\\danih\\OneDrive\\Desktop\\web_management_desa\\app\\Views\\dashboard\\s_kelahiran\\v_s_kelahiran.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\danih\\OneDrive\\Desktop\\web_management_desa\\app\\Views\\dashboard\\s_kelahiran\\v_s_kelahiran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/s_kelahiran/v_s_kelahiran', [], true)
+ 5 APPPATH\Controllers\SKelahiranController.php(22): view('dashboard/s_kelahiran/v_s_kelahiran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SKelahiranController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SKelahiranController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\danih\\OneDrive\\Desktop\\web_management_desa\\public\\index.php')
+INFO - 2023-07-11 00:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 00:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-11 01:10:07 --> mysqli_sql_exception: Column 'keperluan' cannot be null in C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\danih\OneDrive\Desktop\web_management_desa\app\Controllers\SKeteranganController.php(103): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\CodeIgniter.php(934): App\Controllers\SKeteranganController->create()
+#10 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SKeteranganController))
+#11 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\danih\OneDrive\Desktop\web_management_desa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\danih\\...')
+#14 {main}
+CRITICAL - 2023-07-11 01:10:07 --> Column 'keperluan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_s_keterangan` (`nik`, `jenis_surat`, `keperluan`, `pengambilan`, `status`) VALUES (\'3522122211980007\', \'Surat keterangan\', NULL, \'kantor\', \'proses\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_s_keterangan` (`nik`, `jenis_surat`, `keperluan`, `pengambilan`, `status`) VALUES (\'3522122211980007\', \'Surat keterangan\', NULL, \'kantor\', \'proses\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_s_keterangan` (`nik`, `jenis_surat`, `keperluan`, `pengambilan`, `status`) VALUES (\'3522122211980007\', \'Surat keterangan\', NULL, \'kantor\', \'proses\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_s_keterangan` (`nik`, `jenis_surat`, `keperluan`, `pengambilan`, `status`) VALUES (:nik:, :jenis_surat:, :keperluan:, :pengambilan:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\SKeteranganController.php(103): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SKeteranganController->create()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SKeteranganController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\danih\\OneDrive\\Desktop\\web_management_desa\\public\\index.php')
+INFO - 2023-07-11 01:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-11 01:10:38 --> mysqli_sql_exception: Column 'keperluan' cannot be null in C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\danih\OneDrive\Desktop\web_management_desa\app\Controllers\SKeteranganController.php(130): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\CodeIgniter.php(934): App\Controllers\SKeteranganController->create()
+#10 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SKeteranganController))
+#11 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\danih\OneDrive\Desktop\web_management_desa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\danih\\...')
+#14 {main}
+CRITICAL - 2023-07-11 01:10:38 --> Column 'keperluan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_s_keterangan` (`nik`, `jenis_surat`, `keperluan`, `pengambilan`, `status`) VALUES (\'3522122211980007\', \'Surat keterangan\', NULL, \'kantor\', \'proses\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_s_keterangan` (`nik`, `jenis_surat`, `keperluan`, `pengambilan`, `status`) VALUES (\'3522122211980007\', \'Surat keterangan\', NULL, \'kantor\', \'proses\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_s_keterangan` (`nik`, `jenis_surat`, `keperluan`, `pengambilan`, `status`) VALUES (\'3522122211980007\', \'Surat keterangan\', NULL, \'kantor\', \'proses\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_s_keterangan` (`nik`, `jenis_surat`, `keperluan`, `pengambilan`, `status`) VALUES (:nik:, :jenis_surat:, :keperluan:, :pengambilan:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\SKeteranganController.php(130): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SKeteranganController->create()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SKeteranganController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\danih\\OneDrive\\Desktop\\web_management_desa\\public\\index.php')
+INFO - 2023-07-11 01:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 01:10:40 --> Undefined variable $surat_kelahiran
+in APPPATH\Views\dashboard\s_kelahiran\v_s_kelahiran.php on line 46.
+ 1 APPPATH\Views\dashboard\s_kelahiran\v_s_kelahiran.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $surat_kelahiran', 'C:\\Users\\danih\\OneDrive\\Desktop\\web_management_desa\\app\\Views\\dashboard\\s_kelahiran\\v_s_kelahiran.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\danih\\OneDrive\\Desktop\\web_management_desa\\app\\Views\\dashboard\\s_kelahiran\\v_s_kelahiran.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/s_kelahiran/v_s_kelahiran', [], true)
+ 5 APPPATH\Controllers\SKelahiranController.php(152): view('dashboard/s_kelahiran/v_s_kelahiran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SKelahiranController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SKelahiranController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\danih\\OneDrive\\Desktop\\web_management_desa\\public\\index.php')
+INFO - 2023-07-11 01:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-11 01:13:11 --> mysqli_sql_exception: Column 'jk_anak' cannot be null in C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\danih\OneDrive\Desktop\web_management_desa\app\Controllers\SKelahiranController.php(143): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\CodeIgniter.php(934): App\Controllers\SKelahiranController->create()
+#10 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SKelahiranController))
+#11 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\danih\OneDrive\Desktop\web_management_desa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\danih\\...')
+#14 {main}
+CRITICAL - 2023-07-11 01:13:11 --> Column 'jk_anak' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_s_kelahiran` (`nik`, `jenis_surat`, `keperluan`, `pengambilan`, `status`, `identitas`, `nama_anak`, `tempat_lahir_anak`, `tgl_lahir_anak`, `jk_anak`, `nama_ayah`, `urutan_anak`) VALUES (\'3522122211980007\', \'Surat Kelahiran\', \'Surat Keterangan Lahir Anak\', \'kantor\', \'proses\', \'3522122211980007.png\', \'Bagus Dwi\', \'Klaten\', \'2023-07-11\', NULL, \'Suzuki\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_s_kelahiran` (`nik`, `jenis_surat`, `keperluan`, `pengambilan`, `status`, `identitas`, `nama_anak`, `tempat_lahir_anak`, `tgl_lahir_anak`, `jk_anak`, `nama_ayah`, `urutan_anak`) VALUES (\'3522122211980007\', \'Surat Kelahiran\', \'Surat Keterangan Lahir Anak\', \'kantor\', \'proses\', \'3522122211980007.png\', \'Bagus Dwi\', \'Klaten\', \'2023-07-11\', NULL, \'Suzuki\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_s_kelahiran` (`nik`, `jenis_surat`, `keperluan`, `pengambilan`, `status`, `identitas`, `nama_anak`, `tempat_lahir_anak`, `tgl_lahir_anak`, `jk_anak`, `nama_ayah`, `urutan_anak`) VALUES (\'3522122211980007\', \'Surat Kelahiran\', \'Surat Keterangan Lahir Anak\', \'kantor\', \'proses\', \'3522122211980007.png\', \'Bagus Dwi\', \'Klaten\', \'2023-07-11\', NULL, \'Suzuki\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_s_kelahiran` (`nik`, `jenis_surat`, `keperluan`, `pengambilan`, `status`, `identitas`, `nama_anak`, `tempat_lahir_anak`, `tgl_lahir_anak`, `jk_anak`, `nama_ayah`, `urutan_anak`) VALUES (:nik:, :jenis_surat:, :keperluan:, :pengambilan:, :status:, :identitas:, :nama_anak:, :tempat_lahir_anak:, :tgl_lahir_anak:, :jk_anak:, :nama_ayah:, :urutan_anak:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\SKelahiranController.php(143): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SKelahiranController->create()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SKelahiranController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\danih\\OneDrive\\Desktop\\web_management_desa\\public\\index.php')
+INFO - 2023-07-11 01:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-11 01:14:09 --> mysqli_sql_exception: Column 'jk_anak' cannot be null in C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\danih\OneDrive\Desktop\web_management_desa\app\Controllers\SKelahiranController.php(143): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\CodeIgniter.php(934): App\Controllers\SKelahiranController->create()
+#10 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SKelahiranController))
+#11 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\danih\OneDrive\Desktop\web_management_desa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\danih\\...')
+#14 {main}
+CRITICAL - 2023-07-11 01:14:09 --> Column 'jk_anak' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_s_kelahiran` (`nik`, `jenis_surat`, `keperluan`, `pengambilan`, `status`, `identitas`, `nama_anak`, `tempat_lahir_anak`, `tgl_lahir_anak`, `jk_anak`, `nama_ayah`, `urutan_anak`) VALUES (\'3522122211980007\', \'Surat Kelahiran\', \'Surat Keterangan Lahir Anak\', \'kantor\', \'proses\', \'3522122211980007.png\', \'Bagus Dwi\', \'Klaten\', \'2023-07-11\', NULL, \'Suzuki\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_s_kelahiran` (`nik`, `jenis_surat`, `keperluan`, `pengambilan`, `status`, `identitas`, `nama_anak`, `tempat_lahir_anak`, `tgl_lahir_anak`, `jk_anak`, `nama_ayah`, `urutan_anak`) VALUES (\'3522122211980007\', \'Surat Kelahiran\', \'Surat Keterangan Lahir Anak\', \'kantor\', \'proses\', \'3522122211980007.png\', \'Bagus Dwi\', \'Klaten\', \'2023-07-11\', NULL, \'Suzuki\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_s_kelahiran` (`nik`, `jenis_surat`, `keperluan`, `pengambilan`, `status`, `identitas`, `nama_anak`, `tempat_lahir_anak`, `tgl_lahir_anak`, `jk_anak`, `nama_ayah`, `urutan_anak`) VALUES (\'3522122211980007\', \'Surat Kelahiran\', \'Surat Keterangan Lahir Anak\', \'kantor\', \'proses\', \'3522122211980007.png\', \'Bagus Dwi\', \'Klaten\', \'2023-07-11\', NULL, \'Suzuki\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_s_kelahiran` (`nik`, `jenis_surat`, `keperluan`, `pengambilan`, `status`, `identitas`, `nama_anak`, `tempat_lahir_anak`, `tgl_lahir_anak`, `jk_anak`, `nama_ayah`, `urutan_anak`) VALUES (:nik:, :jenis_surat:, :keperluan:, :pengambilan:, :status:, :identitas:, :nama_anak:, :tempat_lahir_anak:, :tgl_lahir_anak:, :jk_anak:, :nama_ayah:, :urutan_anak:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\SKelahiranController.php(143): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SKelahiranController->create()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SKelahiranController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\danih\\OneDrive\\Desktop\\web_management_desa\\public\\index.php')
+INFO - 2023-07-11 01:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 01:42:47 --> Undefined array key "keperluan"
+in APPPATH\Views\dashboard\s_kematian\v_s_kematian.php on line 54.
+ 1 APPPATH\Views\dashboard\s_kematian\v_s_kematian.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "keperluan"', 'C:\\Users\\danih\\OneDrive\\Desktop\\web_management_desa\\app\\Views\\dashboard\\s_kematian\\v_s_kematian.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\danih\\OneDrive\\Desktop\\web_management_desa\\app\\Views\\dashboard\\s_kematian\\v_s_kematian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/s_kematian/v_s_kematian', [], true)
+ 5 APPPATH\Controllers\SKematianController.php(25): view('dashboard/s_kematian/v_s_kematian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SKematianController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SKematianController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\danih\\OneDrive\\Desktop\\web_management_desa\\public\\index.php')
+INFO - 2023-07-11 01:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 01:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 09:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 09:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 09:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 09:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 09:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 09:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 09:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 09:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 09:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 09:04:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 09:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 09:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 09:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 09:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 09:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 09:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 09:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 09:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 09:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

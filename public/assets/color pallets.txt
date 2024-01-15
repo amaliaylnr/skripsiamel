@@ -1,0 +1,16 @@
+<style>
+    .bg-sidebar{
+        background-color: #d35400; /* pumpkin color */
+    }
+    span {
+        color: #ecf0f1;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .bg-header{
+        background-color: #e67e22; /* carrot color */
+        color: #e67e22;
+        font-weight: bold;
+        font-size: 20px;
+    }
+</style>

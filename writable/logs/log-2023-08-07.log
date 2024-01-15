@@ -1,0 +1,196 @@
+ERROR - 2023-08-07 02:28:26 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'ci4' in C:\xampp\htdocs\web_manajemen_desa\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\web_manajemen_desa\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'ci4', 3306, '', 0)
+#1 C:\xampp\htdocs\web_manajemen_desa\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\web_manajemen_desa\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\web_manajemen_desa\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\web_manajemen_desa\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\web_manajemen_desa\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\web_manajemen_desa\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\web_manajemen_desa\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\web_manajemen_desa\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\web_manajemen_desa\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\web_manajemen_desa\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'ci4' in C:\xampp\htdocs\web_manajemen_desa\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\web_manajemen_desa\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\web_manajemen_desa\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\web_manajemen_desa\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\web_manajemen_desa\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\web_manajemen_desa\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\web_manajemen_desa\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\web_manajemen_desa\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp\htdocs\web_manajemen_desa\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\xampp\htdocs\web_manajemen_desa\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\xampp\htdocs\web_manajemen_desa\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-08-07 02:28:44 --> mysqli_sql_exception: Can't create table `db_desa_2022`.`tb_s_pengantar` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\web_manajemen_desa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\web_manajemen_desa\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `t...', 0)
+#1 C:\xampp\htdocs\web_manajemen_desa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `t...')
+#2 C:\xampp\htdocs\web_manajemen_desa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `t...')
+#3 C:\xampp\htdocs\web_manajemen_desa\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `t...')
+#4 C:\xampp\htdocs\web_manajemen_desa\app\Database\Migrations\2023-07-01-170601_SuratPengantar.php(52): CodeIgniter\Database\Forge->createTable('tb_s_pengantar')
+#5 C:\xampp\htdocs\web_manajemen_desa\system\Database\MigrationRunner.php(877): App\Database\Migrations\SuratPengantar->up()
+#6 C:\xampp\htdocs\web_manajemen_desa\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\web_manajemen_desa\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\web_manajemen_desa\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\web_manajemen_desa\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\web_manajemen_desa\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-08-07 02:28:49 --> mysqli_sql_exception: Can't create table `db_desa_2022`.`tb_s_pengantar` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\web_manajemen_desa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\web_manajemen_desa\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `t...', 0)
+#1 C:\xampp\htdocs\web_manajemen_desa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `t...')
+#2 C:\xampp\htdocs\web_manajemen_desa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `t...')
+#3 C:\xampp\htdocs\web_manajemen_desa\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `t...')
+#4 C:\xampp\htdocs\web_manajemen_desa\app\Database\Migrations\2023-07-01-170601_SuratPengantar.php(52): CodeIgniter\Database\Forge->createTable('tb_s_pengantar')
+#5 C:\xampp\htdocs\web_manajemen_desa\system\Database\MigrationRunner.php(877): App\Database\Migrations\SuratPengantar->up()
+#6 C:\xampp\htdocs\web_manajemen_desa\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\web_manajemen_desa\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\web_manajemen_desa\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\web_manajemen_desa\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\web_manajemen_desa\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2023-08-07 02:33:00 --> Attempt to read property "gambar" on null
+in APPPATH\Views\publik\index.php on line 82.
+ 1 APPPATH\Views\publik\index.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "gambar" on null', 'C:\\xampp\\htdocs\\web_manajemen_desa\\app\\Views\\publik\\index.php', 82)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_manajemen_desa\\app\\Views\\publik\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('publik/index', [], true)
+ 5 APPPATH\Controllers\HomepageController.php(51): view('publik/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\HomepageController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomepageController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_manajemen_desa\\public\\index.php')
+INFO - 2023-08-07 02:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 02:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 02:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 02:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-07 02:33:33 --> Attempt to read property "gambar" on null
+in APPPATH\Views\publik\index.php on line 82.
+ 1 APPPATH\Views\publik\index.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "gambar" on null', 'C:\\xampp\\htdocs\\web_manajemen_desa\\app\\Views\\publik\\index.php', 82)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_manajemen_desa\\app\\Views\\publik\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('publik/index', [], true)
+ 5 APPPATH\Controllers\HomepageController.php(51): view('publik/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\HomepageController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomepageController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_manajemen_desa\\public\\index.php')
+INFO - 2023-08-07 02:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 02:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 02:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 02:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 02:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 02:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 02:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 02:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 02:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 02:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 02:43:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 02:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 02:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 02:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 03:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 03:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 11:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 11:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 11:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 11:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 11:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 11:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 11:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 11:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 11:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 11:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 11:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-07 11:08:44 --> mysqli_sql_exception: Unknown column 'tempat_lahir_anak' in 'field list' in C:\xampp\htdocs\web_manajemen_desa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\web_manajemen_desa\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\web_manajemen_desa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\web_manajemen_desa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\web_manajemen_desa\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\web_manajemen_desa\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\web_manajemen_desa\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\web_manajemen_desa\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\web_manajemen_desa\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\web_manajemen_desa\app\Controllers\HomepageController.php(439): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\web_manajemen_desa\system\CodeIgniter.php(934): App\Controllers\HomepageController->form_kelahiran_proses()
+#10 C:\xampp\htdocs\web_manajemen_desa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomepageController))
+#11 C:\xampp\htdocs\web_manajemen_desa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\web_manajemen_desa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\web_manajemen_desa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-08-07 11:08:44 --> Unknown column 'tempat_lahir_anak' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_s_kelahiran` (`nik`, `jenis_surat`, `keperluan`, `pengambilan`, `status`, `identitas`, `nama_anak`, `tempat_lahir_anak`, `tgl_lahir_anak`, `jk_anak`, `nama_ayah`, `urutan_anak`) VALUES (\'3522122211980002\', \'Surat Kelahiran\', \'Surat Keterangan Lahir Anak\', \'kantor\', \'proses\', \'3522122211980002.png\', \'Bagus Dwi Arya\', \'Klaten\', \'2023-08-07\', \'L\', \'Wiranto\', \'3\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_s_kelahiran` (`nik`, `jenis_surat`, `keperluan`, `pengambilan`, `status`, `identitas`, `nama_anak`, `tempat_lahir_anak`, `tgl_lahir_anak`, `jk_anak`, `nama_ayah`, `urutan_anak`) VALUES (\'3522122211980002\', \'Surat Kelahiran\', \'Surat Keterangan Lahir Anak\', \'kantor\', \'proses\', \'3522122211980002.png\', \'Bagus Dwi Arya\', \'Klaten\', \'2023-08-07\', \'L\', \'Wiranto\', \'3\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_s_kelahiran` (`nik`, `jenis_surat`, `keperluan`, `pengambilan`, `status`, `identitas`, `nama_anak`, `tempat_lahir_anak`, `tgl_lahir_anak`, `jk_anak`, `nama_ayah`, `urutan_anak`) VALUES (\'3522122211980002\', \'Surat Kelahiran\', \'Surat Keterangan Lahir Anak\', \'kantor\', \'proses\', \'3522122211980002.png\', \'Bagus Dwi Arya\', \'Klaten\', \'2023-08-07\', \'L\', \'Wiranto\', \'3\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_s_kelahiran` (`nik`, `jenis_surat`, `keperluan`, `pengambilan`, `status`, `identitas`, `nama_anak`, `tempat_lahir_anak`, `tgl_lahir_anak`, `jk_anak`, `nama_ayah`, `urutan_anak`) VALUES (:nik:, :jenis_surat:, :keperluan:, :pengambilan:, :status:, :identitas:, :nama_anak:, :tempat_lahir_anak:, :tgl_lahir_anak:, :jk_anak:, :nama_ayah:, :urutan_anak:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\HomepageController.php(439): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\HomepageController->form_kelahiran_proses()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomepageController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_manajemen_desa\\public\\index.php')
+ERROR - 2023-08-07 11:09:25 --> mysqli_sql_exception: Unknown column 'tgl_lahir_anak' in 'field list' in C:\xampp\htdocs\web_manajemen_desa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\web_manajemen_desa\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\web_manajemen_desa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\web_manajemen_desa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\web_manajemen_desa\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\web_manajemen_desa\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\web_manajemen_desa\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\web_manajemen_desa\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\web_manajemen_desa\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\web_manajemen_desa\app\Controllers\HomepageController.php(474): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\web_manajemen_desa\system\CodeIgniter.php(934): App\Controllers\HomepageController->form_kelahiran_proses()
+#10 C:\xampp\htdocs\web_manajemen_desa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomepageController))
+#11 C:\xampp\htdocs\web_manajemen_desa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\web_manajemen_desa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\web_manajemen_desa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-08-07 11:09:25 --> Unknown column 'tgl_lahir_anak' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_s_kelahiran` (`nik`, `jenis_surat`, `keperluan`, `pengambilan`, `status`, `identitas`, `nama_anak`, `tempat_lahir_anak`, `tgl_lahir_anak`, `jk_anak`, `nama_ayah`, `urutan_anak`) VALUES (\'3522122211980002\', \'Surat Kelahiran\', \'Surat Keterangan Lahir Anak\', \'kantor\', \'proses\', \'3522122211980002.png\', \'Bagus Dwi Arya\', \'Klaten\', \'2023-08-07\', \'L\', \'Wiranto\', \'3\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_s_kelahiran` (`nik`, `jenis_surat`, `keperluan`, `pengambilan`, `status`, `identitas`, `nama_anak`, `tempat_lahir_anak`, `tgl_lahir_anak`, `jk_anak`, `nama_ayah`, `urutan_anak`) VALUES (\'3522122211980002\', \'Surat Kelahiran\', \'Surat Keterangan Lahir Anak\', \'kantor\', \'proses\', \'3522122211980002.png\', \'Bagus Dwi Arya\', \'Klaten\', \'2023-08-07\', \'L\', \'Wiranto\', \'3\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_s_kelahiran` (`nik`, `jenis_surat`, `keperluan`, `pengambilan`, `status`, `identitas`, `nama_anak`, `tempat_lahir_anak`, `tgl_lahir_anak`, `jk_anak`, `nama_ayah`, `urutan_anak`) VALUES (\'3522122211980002\', \'Surat Kelahiran\', \'Surat Keterangan Lahir Anak\', \'kantor\', \'proses\', \'3522122211980002.png\', \'Bagus Dwi Arya\', \'Klaten\', \'2023-08-07\', \'L\', \'Wiranto\', \'3\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_s_kelahiran` (`nik`, `jenis_surat`, `keperluan`, `pengambilan`, `status`, `identitas`, `nama_anak`, `tempat_lahir_anak`, `tgl_lahir_anak`, `jk_anak`, `nama_ayah`, `urutan_anak`) VALUES (:nik:, :jenis_surat:, :keperluan:, :pengambilan:, :status:, :identitas:, :nama_anak:, :tempat_lahir_anak:, :tgl_lahir_anak:, :jk_anak:, :nama_ayah:, :urutan_anak:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\HomepageController.php(474): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\HomepageController->form_kelahiran_proses()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomepageController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_manajemen_desa\\public\\index.php')
+INFO - 2023-08-07 11:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 11:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 11:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 11:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 11:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 11:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 11:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 11:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 11:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 11:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 11:15:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 11:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 11:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 11:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 11:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 11:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 11:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 11:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 11:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

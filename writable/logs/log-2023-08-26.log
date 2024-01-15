@@ -1,0 +1,170 @@
+ERROR - 2023-08-26 05:59:50 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_desa_2023' in C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'db_desa_2023', 3306, '', 0)
+#1 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_desa_2023' in C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-08-26 06:00:12 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_desa_2023' in C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'db_desa_2023', 3306, '', 0)
+#1 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_desa_2023' in C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-08-26 06:00:25 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_desa_2023' in C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'db_desa_2023', 3306, '', 0)
+#1 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\app\Models\BeritaModel.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\app\Controllers\HomepageController.php(46): App\Models\BeritaModel->getFirstBerita()
+#6 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\CodeIgniter.php(934): App\Controllers\HomepageController->index()
+#7 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomepageController))
+#8 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\user\\D...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_desa_2023' in C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\app\Models\BeritaModel.php(46): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\app\Controllers\HomepageController.php(46): App\Models\BeritaModel->getFirstBerita()
+#5 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\CodeIgniter.php(934): App\Controllers\HomepageController->index()
+#6 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomepageController))
+#7 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\user\\D...')
+#10 {main}
+CRITICAL - 2023-08-26 06:00:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_desa_2023'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `berita`', [], false)
+ 3 APPPATH\Models\BeritaModel.php(46): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\HomepageController.php(46): App\Models\BeritaModel->getFirstBerita()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\HomepageController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomepageController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\user\\Desktop\\FIX SEMPRO\\web_manajemen_desa-main\\public\\index.php')
+ERROR - 2023-08-26 06:02:30 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_desa_2023' in C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'db_desa_2023', 3306, '', 0)
+#1 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_desa_2023' in C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\Users\user\Desktop\FIX SEMPRO\web_manajemen_desa-main\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+INFO - 2023-08-26 06:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 07:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 08:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 11:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 11:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 11:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 12:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 12:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 12:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 12:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 12:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 12:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 12:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 12:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

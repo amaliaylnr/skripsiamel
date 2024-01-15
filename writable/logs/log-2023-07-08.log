@@ -1,0 +1,165 @@
+INFO - 2023-07-08 11:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 11:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-08 12:29:04 --> Call to undefined method CodeIgniter\View\View::extends()
+in APPPATH\Views\publik\index.php on line 1.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('publik/index', [], true)
+ 4 APPPATH\Controllers\HomepageController.php(11): view('publik/index')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\HomepageController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomepageController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\danih\\OneDrive\\Desktop\\web_management_desa\\public\\index.php')
+CRITICAL - 2023-07-08 13:27:59 --> Call to undefined function set_value()
+in APPPATH\Views\publik\tambah\form_pengantar.php on line 31.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('publik/tambah/form_pengantar', [], true)
+ 4 APPPATH\Controllers\HomepageController.php(21): view('publik/tambah/form_pengantar')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\HomepageController->form_pengantar()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomepageController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\danih\\OneDrive\\Desktop\\web_management_desa\\public\\index.php')
+CRITICAL - 2023-07-08 13:30:22 --> Call to undefined function set_value()
+in APPPATH\Views\publik\tambah\form_pengantar.php on line 31.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('publik/tambah/form_pengantar', [], true)
+ 4 APPPATH\Controllers\HomepageController.php(22): view('publik/tambah/form_pengantar', [])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\HomepageController->form_pengantar()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomepageController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\danih\\OneDrive\\Desktop\\web_management_desa\\public\\index.php')
+CRITICAL - 2023-07-08 13:30:23 --> Call to undefined function set_value()
+in APPPATH\Views\publik\tambah\form_pengantar.php on line 31.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('publik/tambah/form_pengantar', [], true)
+ 4 APPPATH\Controllers\HomepageController.php(22): view('publik/tambah/form_pengantar', [])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\HomepageController->form_pengantar()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomepageController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\danih\\OneDrive\\Desktop\\web_management_desa\\public\\index.php')
+INFO - 2023-07-08 13:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 14:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 14:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-08 14:13:02 --> mysqli_sql_exception: Column 'tgl_lahir' cannot be null in C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\danih\OneDrive\Desktop\web_management_desa\app\Models\SPengantarModel.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\danih\OneDrive\Desktop\web_management_desa\app\Controllers\HomepageController.php(71): App\Models\SPengantarModel->saveNew(Array)
+#6 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\CodeIgniter.php(934): App\Controllers\HomepageController->form_pengantar_proses()
+#7 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomepageController))
+#8 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\danih\OneDrive\Desktop\web_management_desa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\danih\\...')
+#11 {main}
+CRITICAL - 2023-07-08 14:13:02 --> Column 'tgl_lahir' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_warga` (`nik`, `nama`, `slug`, `tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `kewarganegaraan`, `status_perkawinan`, `pekerjaan`, `alamat`, `email`, `telepon`, `identitas`) VALUES (\'3522122211980009\', \'Muhammd Dani\', \'3522122211980009_Muhammd_Dani\', \'Jakarta Selatan\', NULL, \'L\', \'islam\', NULL, NULL, NULL, \'Bangkalan, Jawa Timur, Indonesia\\r\\nGili Timur, Perumahan GKP Bloko A4 no. 26.\', \'emdehateam@gmail.com\', NULL, \'3522122211980009.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_warga` (`nik`, `nama`, `slug`, `tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `kewarganegaraan`, `status_perkawinan`, `pekerjaan`, `alamat`, `email`, `telepon`, `identitas`) VALUES (\'3522122211980009\', \'Muhammd Dani\', \'3522122211980009_Muhammd_Dani\', \'Jakarta Selatan\', NULL, \'L\', \'islam\', NULL, NULL, NULL, \'Bangkalan, Jawa Timur, Indonesia\\r\\nGili Timur, Perumahan GKP Bloko A4 no. 26.\', \'emdehateam@gmail.com\', NULL, \'3522122211980009.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_warga` (`nik`, `nama`, `slug`, `tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `kewarganegaraan`, `status_perkawinan`, `pekerjaan`, `alamat`, `email`, `telepon`, `identitas`) VALUES (\'3522122211980009\', \'Muhammd Dani\', \'3522122211980009_Muhammd_Dani\', \'Jakarta Selatan\', NULL, \'L\', \'islam\', NULL, NULL, NULL, \'Bangkalan, Jawa Timur, Indonesia\\r\\nGili Timur, Perumahan GKP Bloko A4 no. 26.\', \'emdehateam@gmail.com\', NULL, \'3522122211980009.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_warga` (`nik`, `nama`, `slug`, `tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `kewarganegaraan`, `status_perkawinan`, `pekerjaan`, `alamat`, `email`, `telepon`, `identitas`) VALUES (:nik:, :nama:, :slug:, :tempat_lahir:, :tgl_lahir:, :jenis_kelamin:, :agama:, :kewarganegaraan:, :status_perkawinan:, :pekerjaan:, :alamat:, :email:, :telepon:, :identitas:)', [...], false)
+ 5 APPPATH\Models\SPengantarModel.php(46): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\HomepageController.php(71): App\Models\SPengantarModel->saveNew([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\HomepageController->form_pengantar_proses()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomepageController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\danih\\OneDrive\\Desktop\\web_management_desa\\public\\index.php')
+ERROR - 2023-07-08 14:14:41 --> mysqli_sql_exception: Column 'tgl_lahir' cannot be null in C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\danih\OneDrive\Desktop\web_management_desa\app\Models\SPengantarModel.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\danih\OneDrive\Desktop\web_management_desa\app\Controllers\HomepageController.php(71): App\Models\SPengantarModel->saveNew(Array)
+#6 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\CodeIgniter.php(934): App\Controllers\HomepageController->form_pengantar_proses()
+#7 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomepageController))
+#8 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\danih\OneDrive\Desktop\web_management_desa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\danih\\...')
+#11 {main}
+CRITICAL - 2023-07-08 14:14:41 --> Column 'tgl_lahir' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_warga` (`nik`, `nama`, `slug`, `tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `kewarganegaraan`, `status_perkawinan`, `pekerjaan`, `alamat`, `email`, `telepon`, `identitas`) VALUES (\'3522122211980009\', \'Muhammd Dani\', \'3522122211980009_Muhammd_Dani\', \'Jakarta Selatan\', NULL, \'L\', \'islam\', NULL, NULL, NULL, \'Bangkalan, Jawa Timur, Indonesia\\r\\nGili Timur, Perumahan GKP Bloko A4 no. 26.\', \'emdehateam@gmail.com\', NULL, \'3522122211980009.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_warga` (`nik`, `nama`, `slug`, `tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `kewarganegaraan`, `status_perkawinan`, `pekerjaan`, `alamat`, `email`, `telepon`, `identitas`) VALUES (\'3522122211980009\', \'Muhammd Dani\', \'3522122211980009_Muhammd_Dani\', \'Jakarta Selatan\', NULL, \'L\', \'islam\', NULL, NULL, NULL, \'Bangkalan, Jawa Timur, Indonesia\\r\\nGili Timur, Perumahan GKP Bloko A4 no. 26.\', \'emdehateam@gmail.com\', NULL, \'3522122211980009.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_warga` (`nik`, `nama`, `slug`, `tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `kewarganegaraan`, `status_perkawinan`, `pekerjaan`, `alamat`, `email`, `telepon`, `identitas`) VALUES (\'3522122211980009\', \'Muhammd Dani\', \'3522122211980009_Muhammd_Dani\', \'Jakarta Selatan\', NULL, \'L\', \'islam\', NULL, NULL, NULL, \'Bangkalan, Jawa Timur, Indonesia\\r\\nGili Timur, Perumahan GKP Bloko A4 no. 26.\', \'emdehateam@gmail.com\', NULL, \'3522122211980009.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_warga` (`nik`, `nama`, `slug`, `tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `kewarganegaraan`, `status_perkawinan`, `pekerjaan`, `alamat`, `email`, `telepon`, `identitas`) VALUES (:nik:, :nama:, :slug:, :tempat_lahir:, :tgl_lahir:, :jenis_kelamin:, :agama:, :kewarganegaraan:, :status_perkawinan:, :pekerjaan:, :alamat:, :email:, :telepon:, :identitas:)', [...], false)
+ 5 APPPATH\Models\SPengantarModel.php(46): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\HomepageController.php(71): App\Models\SPengantarModel->saveNew([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\HomepageController->form_pengantar_proses()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomepageController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\danih\\OneDrive\\Desktop\\web_management_desa\\public\\index.php')
+ERROR - 2023-07-08 14:15:26 --> mysqli_sql_exception: Column 'kewarganegaraan' cannot be null in C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\danih\OneDrive\Desktop\web_management_desa\app\Models\SPengantarModel.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\danih\OneDrive\Desktop\web_management_desa\app\Controllers\HomepageController.php(71): App\Models\SPengantarModel->saveNew(Array)
+#6 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\CodeIgniter.php(934): App\Controllers\HomepageController->form_pengantar_proses()
+#7 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomepageController))
+#8 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\danih\OneDrive\Desktop\web_management_desa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\danih\OneDrive\Desktop\web_management_desa\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\danih\\...')
+#11 {main}
+CRITICAL - 2023-07-08 14:15:26 --> Column 'kewarganegaraan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_warga` (`nik`, `nama`, `slug`, `tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `kewarganegaraan`, `status_perkawinan`, `pekerjaan`, `alamat`, `email`, `telepon`, `identitas`) VALUES (\'3522122211980009\', \'Muhammad Dani\', \'3522122211980009_Muhammad_Dani\', \'Jakarta Selatan\', \'1999-11-22\', \'L\', \'islam\', NULL, NULL, NULL, \'Bangkalan, Jawa Timur, Indonesia\\r\\nGili Timur, Perumahan GKP Bloko A4 no. 26.\', \'emdehateam@gmail.com\', NULL, \'3522122211980009.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_warga` (`nik`, `nama`, `slug`, `tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `kewarganegaraan`, `status_perkawinan`, `pekerjaan`, `alamat`, `email`, `telepon`, `identitas`) VALUES (\'3522122211980009\', \'Muhammad Dani\', \'3522122211980009_Muhammad_Dani\', \'Jakarta Selatan\', \'1999-11-22\', \'L\', \'islam\', NULL, NULL, NULL, \'Bangkalan, Jawa Timur, Indonesia\\r\\nGili Timur, Perumahan GKP Bloko A4 no. 26.\', \'emdehateam@gmail.com\', NULL, \'3522122211980009.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_warga` (`nik`, `nama`, `slug`, `tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `kewarganegaraan`, `status_perkawinan`, `pekerjaan`, `alamat`, `email`, `telepon`, `identitas`) VALUES (\'3522122211980009\', \'Muhammad Dani\', \'3522122211980009_Muhammad_Dani\', \'Jakarta Selatan\', \'1999-11-22\', \'L\', \'islam\', NULL, NULL, NULL, \'Bangkalan, Jawa Timur, Indonesia\\r\\nGili Timur, Perumahan GKP Bloko A4 no. 26.\', \'emdehateam@gmail.com\', NULL, \'3522122211980009.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_warga` (`nik`, `nama`, `slug`, `tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `kewarganegaraan`, `status_perkawinan`, `pekerjaan`, `alamat`, `email`, `telepon`, `identitas`) VALUES (:nik:, :nama:, :slug:, :tempat_lahir:, :tgl_lahir:, :jenis_kelamin:, :agama:, :kewarganegaraan:, :status_perkawinan:, :pekerjaan:, :alamat:, :email:, :telepon:, :identitas:)', [...], false)
+ 5 APPPATH\Models\SPengantarModel.php(46): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\HomepageController.php(71): App\Models\SPengantarModel->saveNew([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\HomepageController->form_pengantar_proses()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomepageController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\danih\\OneDrive\\Desktop\\web_management_desa\\public\\index.php')
+INFO - 2023-07-08 14:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 20:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 20:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 20:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 20:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 20:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 20:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 20:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 20:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 20:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 20:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 20:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 20:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 20:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 20:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 20:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 20:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 20:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 20:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 20:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 20:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 20:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 20:39:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 20:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 20:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 21:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 21:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 21:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 21:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 21:08:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 21:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 21:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 21:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-08 21:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

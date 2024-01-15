@@ -1,0 +1,23 @@
+.btn-create{
+    background-color: #e67e22; /* carrot color */
+}
+
+.btn-edit{
+    background-color: #2980b9; /* carrot color */
+}
+.btn-delete{
+    background-color: #c0392b; /* carrot color */
+}
+
+.bg-header-table{
+    background-color: #27ae60;  /* nephritis color */
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.body-table{
+    align-items: center;
+    text-align: start;
+    vertical-align: middle;
+}

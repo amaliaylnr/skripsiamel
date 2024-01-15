@@ -1,0 +1,253 @@
+INFO - 2023-08-20 13:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-20 13:18:24 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\SWarisController.php on line 142.
+ 1 APPPATH\Controllers\SWarisController.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\web_manajemen_desa\\app\\Controllers\\SWarisController.php', 142)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SWarisController->delete('SAW.20230819.040817.21025')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SWarisController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_manajemen_desa\\public\\index.php')
+INFO - 2023-08-20 13:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-20 13:20:19 --> Cannot use object of type App\Models\SWarisModel as array
+in APPPATH\Controllers\SWarisController.php on line 142.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SWarisController->delete('SAW.20230819.040817.21025')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SWarisController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_manajemen_desa\\public\\index.php')
+INFO - 2023-08-20 13:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-20 13:28:04 --> Undefined array key "id"
+in APPPATH\Controllers\SWarisController.php on line 142.
+ 1 APPPATH\Controllers\SWarisController.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\web_manajemen_desa\\app\\Controllers\\SWarisController.php', 142)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SWarisController->delete('SAW.20230819.040817.21025')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SWarisController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_manajemen_desa\\public\\index.php')
+INFO - 2023-08-20 13:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-20 13:29:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::find()
+in APPPATH\Controllers\SWarisController.php on line 142.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SWarisController->delete('SAW.20230819.040817.21025')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SWarisController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_manajemen_desa\\public\\index.php')
+INFO - 2023-08-20 13:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-20 13:31:48 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\SWarisController.php on line 144.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SWarisController->delete('SAW.20230819.040817.21025')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SWarisController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_manajemen_desa\\public\\index.php')
+INFO - 2023-08-20 13:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-20 13:37:40 --> Undefined variable $surat_waris
+in APPPATH\Views\dashboard\penduduk\v_warga.php on line 47.
+ 1 APPPATH\Views\dashboard\penduduk\v_warga.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $surat_waris', 'C:\\xampp\\htdocs\\web_manajemen_desa\\app\\Views\\dashboard\\penduduk\\v_warga.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_manajemen_desa\\app\\Views\\dashboard\\penduduk\\v_warga.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/penduduk/v_warga', [], true)
+ 5 APPPATH\Controllers\PendudukController.php(23): view('dashboard/penduduk/v_warga', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PendudukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendudukController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_manajemen_desa\\public\\index.php')
+INFO - 2023-08-20 13:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-20 13:38:00 --> Undefined variable $surat_waris
+in APPPATH\Views\dashboard\penduduk\v_warga.php on line 47.
+ 1 APPPATH\Views\dashboard\penduduk\v_warga.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $surat_waris', 'C:\\xampp\\htdocs\\web_manajemen_desa\\app\\Views\\dashboard\\penduduk\\v_warga.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_manajemen_desa\\app\\Views\\dashboard\\penduduk\\v_warga.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/penduduk/v_warga', [], true)
+ 5 APPPATH\Controllers\PendudukController.php(23): view('dashboard/penduduk/v_warga', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PendudukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendudukController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_manajemen_desa\\public\\index.php')
+INFO - 2023-08-20 13:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-20 13:40:58 --> Undefined array key "created_at"
+in APPPATH\Views\dashboard\penduduk\v_warga.php on line 63.
+ 1 APPPATH\Views\dashboard\penduduk\v_warga.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "created_at"', 'C:\\xampp\\htdocs\\web_manajemen_desa\\app\\Views\\dashboard\\penduduk\\v_warga.php', 63)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_manajemen_desa\\app\\Views\\dashboard\\penduduk\\v_warga.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/penduduk/v_warga', [], true)
+ 5 APPPATH\Controllers\PendudukController.php(23): view('dashboard/penduduk/v_warga', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PendudukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendudukController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_manajemen_desa\\public\\index.php')
+INFO - 2023-08-20 13:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-20 13:41:08 --> Undefined array key "pengambilan"
+in APPPATH\Views\dashboard\penduduk\v_warga.php on line 67.
+ 1 APPPATH\Views\dashboard\penduduk\v_warga.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pengambilan"', 'C:\\xampp\\htdocs\\web_manajemen_desa\\app\\Views\\dashboard\\penduduk\\v_warga.php', 67)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_manajemen_desa\\app\\Views\\dashboard\\penduduk\\v_warga.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/penduduk/v_warga', [], true)
+ 5 APPPATH\Controllers\PendudukController.php(23): view('dashboard/penduduk/v_warga', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PendudukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendudukController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_manajemen_desa\\public\\index.php')
+INFO - 2023-08-20 13:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-20 13:41:28 --> Undefined array key "ns_waris"
+in APPPATH\Views\dashboard\penduduk\v_warga.php on line 69.
+ 1 APPPATH\Views\dashboard\penduduk\v_warga.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ns_waris"', 'C:\\xampp\\htdocs\\web_manajemen_desa\\app\\Views\\dashboard\\penduduk\\v_warga.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_manajemen_desa\\app\\Views\\dashboard\\penduduk\\v_warga.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/penduduk/v_warga', [], true)
+ 5 APPPATH\Controllers\PendudukController.php(23): view('dashboard/penduduk/v_warga', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PendudukController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PendudukController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_manajemen_desa\\public\\index.php')
+INFO - 2023-08-20 13:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:43:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 13:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-20 13:59:33 --> Undefined array key "nama"
+in APPPATH\Views\dashboard\laporan\v_laporan.php on line 53.
+ 1 APPPATH\Views\dashboard\laporan\v_laporan.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\xampp\\htdocs\\web_manajemen_desa\\app\\Views\\dashboard\\laporan\\v_laporan.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\web_manajemen_desa\\app\\Views\\dashboard\\laporan\\v_laporan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('dashboard/laporan/v_laporan', [], true)
+ 5 APPPATH\Controllers\LaporanController.php(40): view('dashboard/laporan/v_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LaporanController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_manajemen_desa\\public\\index.php')
+INFO - 2023-08-20 14:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 14:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 14:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 14:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 14:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-20 14:29:15 --> Undefined array key 0
+in APPPATH\Controllers\LaporanController.php on line 41.
+ 1 APPPATH\Controllers\LaporanController.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\web_manajemen_desa\\app\\Controllers\\LaporanController.php', 41)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LaporanController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_manajemen_desa\\public\\index.php')
+INFO - 2023-08-20 14:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-20 14:29:29 --> Undefined array key 0
+in APPPATH\Controllers\LaporanController.php on line 42.
+ 1 APPPATH\Controllers\LaporanController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\web_manajemen_desa\\app\\Controllers\\LaporanController.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LaporanController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_manajemen_desa\\public\\index.php')
+INFO - 2023-08-20 14:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 14:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 14:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-20 14:33:05 --> mysqli_sql_exception: Column 'agama' cannot be null in C:\xampp\htdocs\web_manajemen_desa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\web_manajemen_desa\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\web_manajemen_desa\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\web_manajemen_desa\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\web_manajemen_desa\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\web_manajemen_desa\app\Models\SPengantarModel.php(46): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\web_manajemen_desa\app\Controllers\HomepageController.php(126): App\Models\SPengantarModel->saveNew(Array)
+#6 C:\xampp\htdocs\web_manajemen_desa\system\CodeIgniter.php(934): App\Controllers\HomepageController->form_pengantar_proses()
+#7 C:\xampp\htdocs\web_manajemen_desa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomepageController))
+#8 C:\xampp\htdocs\web_manajemen_desa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\web_manajemen_desa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\web_manajemen_desa\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-08-20 14:33:05 --> Column 'agama' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_warga` (`nik`, `nama`, `slug`, `tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `kewarganegaraan`, `status_perkawinan`, `pekerjaan`, `alamat`, `email`, `telepon`, `identitas`) VALUES (\'3522122211980007\', \'Emdeha Team\', \'3522122211980007_Emdeha_Team\', \'Bojonegoro Barat\', \'2023-08-14\', \'L\', NULL, \'Indonesia\', \'Lajang\', \'Wiraswasta\', \'Bangkalan, Jawa Timur, Indonesia\\r\\nGili Timur, Perumahan GKP Bloko A4 no. 26.\', \'emdehateam@gmail.com\', NULL, \'3522122211980007.png\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_warga` (`nik`, `nama`, `slug`, `tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `kewarganegaraan`, `status_perkawinan`, `pekerjaan`, `alamat`, `email`, `telepon`, `identitas`) VALUES (\'3522122211980007\', \'Emdeha Team\', \'3522122211980007_Emdeha_Team\', \'Bojonegoro Barat\', \'2023-08-14\', \'L\', NULL, \'Indonesia\', \'Lajang\', \'Wiraswasta\', \'Bangkalan, Jawa Timur, Indonesia\\r\\nGili Timur, Perumahan GKP Bloko A4 no. 26.\', \'emdehateam@gmail.com\', NULL, \'3522122211980007.png\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_warga` (`nik`, `nama`, `slug`, `tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `kewarganegaraan`, `status_perkawinan`, `pekerjaan`, `alamat`, `email`, `telepon`, `identitas`) VALUES (\'3522122211980007\', \'Emdeha Team\', \'3522122211980007_Emdeha_Team\', \'Bojonegoro Barat\', \'2023-08-14\', \'L\', NULL, \'Indonesia\', \'Lajang\', \'Wiraswasta\', \'Bangkalan, Jawa Timur, Indonesia\\r\\nGili Timur, Perumahan GKP Bloko A4 no. 26.\', \'emdehateam@gmail.com\', NULL, \'3522122211980007.png\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_warga` (`nik`, `nama`, `slug`, `tempat_lahir`, `tgl_lahir`, `jenis_kelamin`, `agama`, `kewarganegaraan`, `status_perkawinan`, `pekerjaan`, `alamat`, `email`, `telepon`, `identitas`) VALUES (:nik:, :nama:, :slug:, :tempat_lahir:, :tgl_lahir:, :jenis_kelamin:, :agama:, :kewarganegaraan:, :status_perkawinan:, :pekerjaan:, :alamat:, :email:, :telepon:, :identitas:)', [...], false)
+ 5 APPPATH\Models\SPengantarModel.php(46): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\HomepageController.php(126): App\Models\SPengantarModel->saveNew([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\HomepageController->form_pengantar_proses()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomepageController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\web_manajemen_desa\\public\\index.php')
+INFO - 2023-08-20 14:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 14:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 14:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 14:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 14:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 14:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-20 14:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
